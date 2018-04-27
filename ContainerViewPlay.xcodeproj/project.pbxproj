@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DE522F342092C68C004EF49B /* AVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE522F332092C68C004EF49B /* AVC.swift */; };
 		DE522F362092C6D9004EF49B /* A.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE522F352092C6D9004EF49B /* A.storyboard */; };
+		DE78D32C2092CC7A00367BA1 /* BVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE78D32B2092CC7A00367BA1 /* BVC.swift */; };
 		DEC2065F2092C20C005E4050 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC2065E2092C20C005E4050 /* AppDelegate.swift */; };
 		DEC206612092C20C005E4050 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC206602092C20C005E4050 /* ViewController.swift */; };
 		DEC206642092C20C005E4050 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEC206622092C20C005E4050 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		DE522F332092C68C004EF49B /* AVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVC.swift; sourceTree = "<group>"; };
 		DE522F352092C6D9004EF49B /* A.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = A.storyboard; sourceTree = "<group>"; };
+		DE78D32B2092CC7A00367BA1 /* BVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BVC.swift; sourceTree = "<group>"; };
 		DEC2065B2092C20C005E4050 /* ContainerViewPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContainerViewPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEC2065E2092C20C005E4050 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEC206602092C20C005E4050 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				DE522F352092C6D9004EF49B /* A.storyboard */,
 				DE522F332092C68C004EF49B /* AVC.swift */,
 				DEC2065E2092C20C005E4050 /* AppDelegate.swift */,
+				DE78D32B2092CC7A00367BA1 /* BVC.swift */,
 				DEC206602092C20C005E4050 /* ViewController.swift */,
 				DEC206622092C20C005E4050 /* Main.storyboard */,
 				DEC206652092C20D005E4050 /* Assets.xcassets */,
@@ -266,6 +269,7 @@
 				DE522F342092C68C004EF49B /* AVC.swift in Sources */,
 				DEC206612092C20C005E4050 /* ViewController.swift in Sources */,
 				DEC2065F2092C20C005E4050 /* AppDelegate.swift in Sources */,
+				DE78D32C2092CC7A00367BA1 /* BVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
