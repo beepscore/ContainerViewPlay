@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hN7-U0-59w">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rocket" translatesAutoresizingMaskIntoConstraints="NO" id="wW7-ps-FTP">
-                                <rect key="frame" x="16" y="36" width="343" height="615"/>
+                                <rect key="frame" x="16" y="36" width="343" height="510"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.59999999999999998" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -27,7 +27,6 @@
                             <constraint firstItem="wW7-ps-FTP" firstAttribute="top" secondItem="Uwf-a4-JGU" secondAttribute="top" constant="16" id="7dV-aQ-Xsl"/>
                             <constraint firstItem="wW7-ps-FTP" firstAttribute="leading" secondItem="Uwf-a4-JGU" secondAttribute="leading" constant="16" id="gjI-T9-134"/>
                             <constraint firstItem="wW7-ps-FTP" firstAttribute="trailing" secondItem="Uwf-a4-JGU" secondAttribute="trailing" constant="-16" id="qeb-bT-nay"/>
-                            <constraint firstItem="wW7-ps-FTP" firstAttribute="bottom" secondItem="Uwf-a4-JGU" secondAttribute="bottom" constant="-16" id="wpc-C8-GD3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Uwf-a4-JGU"/>
                     </view>

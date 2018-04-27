@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aGu-aT-OSt">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cyg-Av-Eru">
-                                <rect key="frame" x="0.0" y="100" width="375" height="60"/>
+                                <rect key="frame" x="0.0" y="144" width="375" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="DQI-U5-uyH"/>
                                 </constraints>
@@ -27,19 +27,30 @@
                                     <segue destination="IiD-5T-KdN" kind="embed" id="1F1-OE-66p"/>
                                 </connections>
                             </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LZJ-6u-ab3">
+                                <rect key="frame" x="0.0" y="206" width="375" height="461"/>
+                                <connections>
+                                    <segue destination="DNm-Qv-qP9" kind="embed" id="S54-E5-lou"/>
+                                </connections>
+                            </containerView>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="LZJ-6u-ab3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="59g-P1-5Dx"/>
+                            <constraint firstItem="LZJ-6u-ab3" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="9Zi-xG-rOj"/>
+                            <constraint firstItem="LZJ-6u-ab3" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="S7I-dP-vRi"/>
                             <constraint firstItem="Cyg-Av-Eru" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="gkc-8u-f64"/>
                             <constraint firstItem="Cyg-Av-Eru" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="pAu-Gj-hvC"/>
+                            <constraint firstItem="LZJ-6u-ab3" firstAttribute="top" secondItem="Cyg-Av-Eru" secondAttribute="bottom" constant="2" id="tqt-Zn-HUG"/>
                             <constraint firstItem="Cyg-Av-Eru" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="yDV-bY-5mz"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ZUa-yh-zeh"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="140" y="133.5832083958021"/>
+            <point key="canvasLocation" x="1079.2" y="133.5832083958021"/>
         </scene>
         <!--A-->
         <scene sceneID="RAW-u7-gDJ">
@@ -47,7 +58,33 @@
                 <viewControllerPlaceholder storyboardName="A" id="IiD-5T-KdN" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h6Y-5r-Fs8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="809" y="-41"/>
+            <point key="canvasLocation" x="1671.2" y="-54.872563718140931"/>
+        </scene>
+        <!--B-->
+        <scene sceneID="KHD-Mh-nft">
+            <objects>
+                <viewControllerPlaceholder storyboardName="B" id="DNm-Qv-qP9" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TP4-cY-dDd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1671.2" y="242.87856071964021"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="GvH-mU-P5u">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aGu-aT-OSt" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LnH-u8-Mnt">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Ues-cG-ryy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tgd-Zf-qUZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="133.5832083958021"/>
         </scene>
     </scenes>
 </document>
