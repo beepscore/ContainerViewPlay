@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var aContainerView: UIView!    
+    @IBOutlet weak var bContainerView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
