@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--BVC-->
+        <scene sceneID="WdQ-Cn-yZX">
+            <objects>
+                <viewController id="hN7-U0-59w" customClass="BVC" customModule="ContainerViewPlay" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gEy-gd-GlG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wW7-ps-FTP">
+                                <rect key="frame" x="16" y="36" width="343" height="615"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.59999999999999998" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="wW7-ps-FTP" firstAttribute="top" secondItem="Uwf-a4-JGU" secondAttribute="top" constant="16" id="7dV-aQ-Xsl"/>
+                            <constraint firstItem="wW7-ps-FTP" firstAttribute="leading" secondItem="Uwf-a4-JGU" secondAttribute="leading" constant="16" id="gjI-T9-134"/>
+                            <constraint firstItem="wW7-ps-FTP" firstAttribute="trailing" secondItem="Uwf-a4-JGU" secondAttribute="trailing" constant="-16" id="qeb-bT-nay"/>
+                            <constraint firstItem="wW7-ps-FTP" firstAttribute="bottom" secondItem="Uwf-a4-JGU" secondAttribute="bottom" constant="-16" id="wpc-C8-GD3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Uwf-a4-JGU"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vrh-o2-ps3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="96.799999999999997" y="141.67916041979012"/>
+        </scene>
+    </scenes>
+</document>
