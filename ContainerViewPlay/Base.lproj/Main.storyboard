@@ -49,6 +49,7 @@
                     <navigationItem key="navigationItem" id="ZUa-yh-zeh"/>
                     <connections>
                         <outlet property="aContainerView" destination="Cyg-Av-Eru" id="lyT-Rh-DMO"/>
+                        <outlet property="aContainerViewHeight" destination="DQI-U5-uyH" id="szN-gj-nH3"/>
                         <outlet property="bContainerView" destination="LZJ-6u-ab3" id="l9a-VE-Xvq"/>
                     </connections>
                 </viewController>
