@@ -205,13 +205,16 @@
 				TargetAttributes = {
 					DEC2065A2092C20C005E4050 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1020;
 					};
 					DEC2066E2092C20D005E4050 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1020;
 						TestTargetID = DEC2065A2092C20C005E4050;
 					};
 					DEC206792092C20D005E4050 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1020;
 						TestTargetID = DEC2065A2092C20C005E4050;
 					};
 				};
@@ -455,7 +458,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.ContainerViewPlay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -473,7 +476,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.ContainerViewPlay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -493,7 +496,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.ContainerViewPlayTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContainerViewPlay.app/ContainerViewPlay";
 			};
@@ -514,7 +517,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.ContainerViewPlayTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContainerViewPlay.app/ContainerViewPlay";
 			};
@@ -534,7 +537,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.ContainerViewPlayUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = ContainerViewPlay;
 			};
@@ -554,7 +557,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.ContainerViewPlayUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = ContainerViewPlay;
 			};
